@@ -295,6 +295,15 @@ a#navbarDropdown.nav-link.text-dark.fw-bold.dropdown-toggle::after {
   margin: 0;
 }
 
+/* back to top button  */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
   .package-card {
     width: 50%;

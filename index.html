@@ -39,17 +39,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" aria-current="page" href="#"
+              <a class="nav-link text-dark fw-bold" aria-current="page" href="#home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="#">Book</a>
+              <a class="nav-link text-dark fw-bold" href="#booking">Book</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link text-dark fw-bold dropdown-toggle"
-                href="#"
+                href="#packages"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -65,13 +65,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="#">Services</a>
+              <a class="nav-link text-dark fw-bold" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="#">Gallery</a>
+              <a class="nav-link text-dark fw-bold" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="about.html">About</a>
+              <a class="nav-link text-dark fw-bold" href="#about">About</a>
             </li>
           </ul>
 
@@ -84,7 +84,7 @@
     </nav>
 
     <!-- home section -->
-    <div class="home">
+    <section id="home" class="home">
       <div class="home-content d-flex justify-content-center align-items-center">
         <div class="content d-flex flex-column justify-content-center align-items-center">
           <h2 class="display-6 fw-bold text-center">Welcome to World</h2>
@@ -98,10 +98,10 @@
           <button class="btn btn-light border-0 fs-6">Book Now</button>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- booking section -->
-    <div class="booking-section container">
+    <section id="booking" class="booking-section container">
       <!-- image -->
       <div class="image-section">
         <img
@@ -182,26 +182,31 @@
           </button>
         </form>
       </div>
-    </div>
+    </section>
 
     <!-- package section -->
-    <div><h1 class="section-heading">Packages <span>Packages</span></h1></div>
-    <div id="package-section" class="package-section container">
-    </div>
+    <section id="packages">
+      <div><h1 class="section-heading">Packages <span>Packages</span></h1></div>
+      <div id="package-section" class="package-section container">
+      </div>
+    </section>
 
     <!-- services section -->
-    <section style="background-color: #f0f0f0;">
+    <section id="services" style="background-color: #f0f0f0;">
       <div><h1 class="section-heading">Services <span>Services</span></h1></div>
       <div id="services-section" class="services-section">
       </div>
     </section>
 
     <!-- gallery section -->
-    <div><h1 class="section-heading">Gallery <span>Gallery</span></h1></div>
-    <div id="gallery-section" class="gallery-section container">
-    </div>
+    <section id="gallery">
+      <div><h1 class="section-heading">Gallery <span>Gallery</span></h1></div>
+      <div id="gallery-section" class="gallery-section container">
+      </div>
+    </section>
 
     <!-- about section -->
+    <section id="about">
     <div><h1 class="section-heading">About <span>About</span></h1></div>
     <div class="container">
       <div class="about-section">
@@ -217,6 +222,7 @@
         </div>
       </div>
     </div>
+  </section>
 
     <!-- footer section -->
     <div class="footer-section container-fluid">
@@ -232,6 +238,8 @@
       </div>
       <p class="copyright-text">Copyright &copy; 2023 Travel - All rights reserved.</p>
     </div>
+
+    <button id="back-to-top-btn" class="btn btn-warning"><i class="bi bi-caret-up-fill"></i></button>
 
     <script src="main.js"></script>
   </body>
