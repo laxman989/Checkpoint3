@@ -3,8 +3,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #F8F9FA; */
-  /* background-color: white; */
 }
 
 .section-heading {
@@ -24,8 +22,9 @@ body {
 
 .section-heading > span {
   position: absolute;
-  bottom: 10px;
-  right: 0%;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 4.8vh;
   z-index: -1;
   color: #151516;
