@@ -100,6 +100,7 @@ const Booking = () => {
             <div className="block md:flex items-start justify-center">
                 <img className="w-[100%] md:w-[50%] aspect-square p-5 md:p-10" src="https://images.pexels.com/photos/1443894/pexels-photo-1443894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="booking-img" />
                 
+
                 <div id="booking" className="py-10 px-5 w-[100%] md:w-[50%]">
                     <h1 className="text-3xl text-center font-semibold uppercase pb-5">Booking</h1>
                     
